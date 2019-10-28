@@ -7,6 +7,8 @@ package com.wyjson.releasebuildconfig.constant;
  */
 public abstract class AppConfig {
 
+    public abstract String getBuildType();
+
     /**
      * 通用api
      */

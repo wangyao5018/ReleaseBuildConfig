@@ -10,6 +10,12 @@ import com.wyjson.releasebuildconfig.constant.ReleaseAppConfig;
  * @date 2019-10-28 15:24
  */
 public class SandboxAppConfig extends ReleaseAppConfig {
+
+    @Override
+    public String getBuildType() {
+        return "沙盒-Sandbox(Beta)";
+    }
+
     @Override
     public String getApiUrl() {
         return "https://sandbox-api.url.com";

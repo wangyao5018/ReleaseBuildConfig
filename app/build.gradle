@@ -27,7 +27,7 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
         sandbox {
-            buildConfigField 'com.wyjson.releasebuildconfig.constant.AppConfig', 'AppConfig', 'new com.wyjson.releasebuildconfig.constant.SandboxAppConfig()'
+            buildConfigField 'com.wyjson.releasebuildconfig.constant.AppConfig', 'AppConfig', 'new com.wyjson.releasebuildconfig.SandboxAppConfig()'
             minifyEnabled true
             zipAlignEnabled true
             shrinkResources true

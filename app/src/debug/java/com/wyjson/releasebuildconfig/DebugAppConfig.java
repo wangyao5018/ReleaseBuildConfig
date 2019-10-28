@@ -10,6 +10,12 @@ import com.wyjson.releasebuildconfig.constant.ReleaseAppConfig;
  * @date 2019-10-28 15:24
  */
 public class DebugAppConfig extends ReleaseAppConfig {
+
+    @Override
+    public String getBuildType() {
+        return "开发版-Debug";
+    }
+
     @Override
     public String getApiUrl() {
         return "https://dev-api.url.com";

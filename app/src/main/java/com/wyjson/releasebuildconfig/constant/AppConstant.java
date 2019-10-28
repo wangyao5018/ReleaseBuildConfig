@@ -11,6 +11,8 @@ import com.wyjson.releasebuildconfig.BuildConfig;
  */
 public interface AppConstant {
 
+    String BUILD_TYPE = BuildConfig.AppConfig.getBuildType();
+
     /**
      * 通用api
      */

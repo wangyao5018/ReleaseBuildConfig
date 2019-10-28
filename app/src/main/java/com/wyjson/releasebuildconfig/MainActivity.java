@@ -23,9 +23,12 @@ public class MainActivity extends AppCompatActivity {
 
         TextView tvContent = findViewById(R.id.tv_content);
         StringBuilder buff = new StringBuilder();
+        buff.append("\n");
 
-        buff.append("type : ");
-        buff.append(AppConstant.SHOP_URL);
+        buff.append("Build_Type: ");
+        buff.append(AppConstant.BUILD_TYPE);
+        buff.append("\n");
+        buff.append("\n");
         buff.append("\n");
 
         buff.append("api_url : ");

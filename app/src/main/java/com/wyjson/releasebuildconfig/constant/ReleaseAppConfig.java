@@ -8,6 +8,12 @@ package com.wyjson.releasebuildconfig.constant;
  * @date 2019-10-28 15:21
  */
 public class ReleaseAppConfig extends AppConfig {
+
+    @Override
+    public String getBuildType() {
+        return "正式版-Release";
+    }
+
     @Override
     public String getApiUrl() {
         return "https://api.url.com";
