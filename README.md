@@ -7,8 +7,8 @@ App里包含Api的Url,web网址,变量,这些值在开发环境(线下)和正式
 
 # 效果
 
-![](screenshots/1.png)
+![](screenshots/4.png)
 
-![](screenshots/2.png)
+![](screenshots/5.png)
 
-![](screenshots/3.png)
+![](screenshots/6.png)
