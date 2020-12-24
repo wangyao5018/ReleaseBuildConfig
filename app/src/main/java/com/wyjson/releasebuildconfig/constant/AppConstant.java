@@ -24,22 +24,22 @@ public interface AppConstant {
     String API_USER_URL = BuildConfig.AppConfig.getApiUserUrl();
 
     /**
-     * bas web url
+     * web app url
      */
-    String BASE_WEB_URL = BuildConfig.AppConfig.getBaseWebUrl();
+    String WEB_APP_URL = BuildConfig.AppConfig.getWebAppUrl();
 
     /**
      * 商城
      */
-    String SHOP_URL = BASE_WEB_URL + "/shop";
+    String SHOP_URL = WEB_APP_URL + "/shop";
 
     /**
      * 订单详细
      */
-    String ORDER_DETAIL_URL = BASE_WEB_URL + "/orders/%s";
+    String ORDER_DETAIL_URL = WEB_APP_URL + "/orders/%s";
 
     /**
      * 收藏
      */
-    String FAVOUR_URL = BASE_WEB_URL + "/favours";
+    String FAVOUR_URL = WEB_APP_URL + "/favours";
 }

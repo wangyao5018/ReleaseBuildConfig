@@ -25,7 +25,7 @@ public class ReleaseAppConfig extends AppConfig {
     }
 
     @Override
-    public String getBaseWebUrl() {
+    public String getWebAppUrl() {
         return "https://url.com";
     }
 }

@@ -20,8 +20,8 @@ public abstract class AppConfig {
     public abstract String getApiUserUrl();
 
     /**
-     * bas web url
+     * web app url
      */
-    public abstract String getBaseWebUrl();
+    public abstract String getWebAppUrl();
 
 }

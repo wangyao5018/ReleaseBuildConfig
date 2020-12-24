@@ -27,7 +27,7 @@ public class SandboxAppConfig extends ReleaseAppConfig {
     }
 
     @Override
-    public String getBaseWebUrl() {
+    public String getWebAppUrl() {
         return "https://sandbox.url.com";
     }
 }

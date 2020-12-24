@@ -27,7 +27,7 @@ public class DebugAppConfig extends ReleaseAppConfig {
     }
 
     @Override
-    public String getBaseWebUrl() {
+    public String getWebAppUrl() {
         return "https://dev.url.com";
     }
 }
